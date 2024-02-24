@@ -1,0 +1,62 @@
+.error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+}
+
+.active-filter {
+    background-color: aqua;
+}
+
+.is-done {
+    opacity: 0.5;
+}
+
+.is-done, .todo {
+    border-radius: 20px;
+    margin: 8px;
+    transition: 0.2s;
+}
+
+.filter-btns {
+    margin-top: 20px;
+}
+
+.paper__header {
+    height: 170px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.paper__header--time {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px;
+}
+
+.info__btn, .delete__btn {
+    color: '#BED754'
+}
+
+.paper__header h2 {
+    position: relative;
+    top: -20px;
+}
+
+.tasks__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.action__btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

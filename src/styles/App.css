@@ -1,0 +1,43 @@
+/* 
+.App > div {
+  margin-right: 50px;
+} */
+
+.App .filter-btns button:not(:first-child) {
+  margin-left: 9px; 
+}
+
+.App {
+  min-height: 100vh;
+}
+
+
+
+li > button, .create_task-btn {
+  margin-left: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.MuiDialog-paper {
+  background-color: green;
+}
+
+.create__task--btn {
+  border: none;
+  outline: none;
+  margin: 25px 25px;
+  height: 245px;
+  width: 330px;
+  box-shadow: 0 0 1rem 0 rgba(180, 161, 161, 0.2);	
+	border-radius: 20px;
+	background-color: rgba(100, 100, 100, 0.35);
+	backdrop-filter: blur(6px);
+  transition: .3s;
+}
+.create__task--btn:focus {
+  background-color: rgba(100, 100, 100, 0.4);
+}
+
