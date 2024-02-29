@@ -33,7 +33,7 @@ model TodoList {
 model TaskList {
   id              String @id @default(uuid())
   title           String
-  isDone          Boolean
+  isDone          String
   todoList        TodoList @relation(fields: [todoId], references: [id])
   todoId          String
 }
