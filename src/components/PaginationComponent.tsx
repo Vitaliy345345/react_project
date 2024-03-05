@@ -1,6 +1,6 @@
 import React, { useEffect, useState, ChangeEvent, SetStateAction, Dispatch } from 'react';
 import { Box, Pagination } from '@mui/material';
-import { btnDisplayType, TodoListType } from '../App';
+import { btnDisplayType, TodoListType } from '../components/Content';
 import { service } from '../service/paginationService';
 
 interface PaginationComponentPropsType {

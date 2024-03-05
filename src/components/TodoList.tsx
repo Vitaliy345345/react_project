@@ -1,7 +1,7 @@
 import { Delete, HighlightOff, Info, Settings } from '@mui/icons-material';
 import { Accordion, AccordionDetails, AccordionSummary, Checkbox, Button, Divider, IconButton, Typography } from '@mui/material';
 import React, { useState, ChangeEvent, } from 'react';
-import { filterValuesType } from '../App';
+import { filterValuesType } from './Content';
 import '../styles/TodoListStyle.css'
 import AddItemForm from './AddItemForm';
 import EditableSpan from './EditableSpan'

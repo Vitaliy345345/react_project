@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { v1 } from 'uuid'
-import { filterValuesType, TasksStateType, TodoListType } from '../App'
+import { filterValuesType, TasksStateType, TodoListType } from '../components/Content'
 import { todoListId1, todoListId2 } from '../constants'
 
 type TodosState = {

@@ -1,4 +1,4 @@
-import { TodoListType } from "../App"
+import { TodoListType } from "../components/Content"
 import { paginationTypes } from "../components/PaginationComponent"
 
 export const service = {

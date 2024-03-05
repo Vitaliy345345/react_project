@@ -1,6 +1,6 @@
 import { Button, ButtonGroup } from '@mui/material';
 import React from 'react';
-import { TasksStateType, TodoListType } from '../App';
+import { TasksStateType, TodoListType } from './Content';
 import { useAppDispatch } from '../hook';
 import {todoFilterAll, todoFilterActive, todoFilterCompleted, todoFilterUnlimited, todoFilterTimesLeft} from '../store/todoSlice'
 
